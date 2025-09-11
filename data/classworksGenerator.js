@@ -1,5 +1,5 @@
 import classworks from './classworks.js'
-import { writeFileSync } from 'node:fs'
+import { writeFileSync, mkdirSync, existsSync } from 'node:fs'
 
 function eachObject(link, type, title, anchor) {
 	let html = ''
