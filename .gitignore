@@ -1,0 +1,5 @@
+/src/.vitepress/cache
+/src/.vitepress/dist
+/src/classworks
+/src/homeworks
+/node_modules
