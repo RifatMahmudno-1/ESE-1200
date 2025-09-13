@@ -81,7 +81,7 @@ ${
 	const objectStatus = ref({})
 </script>		
 
-<h1>${classwork.title_text}</h1>`
+# ${classwork.title_text} | Classwork{#title}`
 
 		for (let item of classwork.items) {
 			html += `\n\n## ${item.title}{#${item.title}}\n\n`

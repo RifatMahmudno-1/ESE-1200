@@ -1,5 +1,7 @@
 ---
 layout: page
+title: About Me
+description: An introduction of myself, the creator and maintainer of this website.
 ---
 
 <script setup>

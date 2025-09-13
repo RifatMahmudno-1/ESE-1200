@@ -3,7 +3,6 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
 	cleanUrls: true,
-	lastUpdated: true,
 	vite: { build: { assetsInlineLimit: 0 } },
 	vue: {
 		template: {
@@ -13,6 +12,7 @@ export default defineConfig({
 
 	head: [
 		['link', { rel: 'stylesheet', href: '/global.css' }],
+		['link', { rel: 'icon', href: '/logo.png' }],
 		[
 			'script',
 			{
@@ -20,12 +20,19 @@ export default defineConfig({
 				crossorigin: 'anonymous',
 				type: 'module'
 			}
-		]
+		],
+		['meta', { name: 'author', content: 'Rifat Mahmud' }],
+		['meta', { name: 'creator', content: 'Rifat Mahmud' }],
+		// open graph
+		['meta', { property: 'og:site:name', content: 'ESE 1200' }],
+		['meta', { property: 'og:type', content: 'website' }]
 	],
+	lang: 'en-US',
 	title: 'ESE 1200',
 	description:
 		'A website to showcase some of my projects from ESE 1200 course on Solidworks',
 	themeConfig: {
+		logo: '/logo.png',
 		outline: [2, 3],
 		// https://vitepress.dev/reference/default-theme-config
 		nav: [
