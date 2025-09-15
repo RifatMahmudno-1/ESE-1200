@@ -1,5 +1,19 @@
-import homeworksGenerator from './homeworksGenerator.js'
-import classworksGenerator from './classworksGenerator.js'
+import classworks from './classworks.js'
+import homeworks from './homeworks.js'
+import pageGenerator from './pageGenerator.js'
 
-homeworksGenerator()
-classworksGenerator()
+pageGenerator(
+	'Classworks',
+	'Includes projects that I completed in lab sessions.',
+	classworks,
+	'./src/classworks',
+	'/classworks'
+)
+
+pageGenerator(
+	'Homeworks',
+	'Includes projects that were given to me as homework.',
+	homeworks,
+	'./src/homeworks',
+	'/homeworks'
+)
