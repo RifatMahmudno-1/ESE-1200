@@ -1,4 +1,4 @@
-import { writeFileSync, mkdirSync, existsSync } from 'node:fs'
+import { writeFileSync, mkdirSync, existsSync, rmSync } from 'node:fs'
 
 function eachObject(data) {
 	let html = ''
@@ -50,8 +50,12 @@ ${html}
 }
 
 export default (title, description, content, dir, link_dir) => {
-	if (!existsSync(dir)) mkdirSync(dir, { recursive: true })
+	if (existsSync(dir)) rmSync(dir, { recursive: true, force: true })
+	mkdirSync(dir, { recursive: true })
 
+	/**
+	 * index file generation
+	 */
 	let indexHtml = `# ${title}
 
 ${description}
@@ -75,6 +79,10 @@ ${
 `
 	}
 	writeFileSync(`${dir}/index.md`, indexHtml, { encoding: 'utf-8' })
+
+	/**
+	 * each content file generation
+	 */
 
 	for (let cont of content) {
 		let html = `<script setup>
