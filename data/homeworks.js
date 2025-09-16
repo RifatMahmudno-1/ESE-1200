@@ -45,5 +45,33 @@ export default [
 				]
 			}
 		]
+	},
+	{
+		title_anchor: '2025-09-15',
+		title_text: '15th September, 2025',
+		items: [
+			{
+				title: 'Project-01',
+				views: [
+					{
+						title: '3D model',
+						link: '/objects/hw-02-01.glb',
+						raw_link: '/raw_objects/hw-02-01.SLDPRT',
+						type: 'model'
+					}
+				]
+			},
+			{
+				title: 'Project-02',
+				views: [
+					{
+						title: '3D model',
+						link: '/objects/hw-02-02.glb',
+						raw_link: '/raw_objects/hw-02-02.SLDPRT',
+						type: 'model'
+					}
+				]
+			}
+		]
 	}
 ]
