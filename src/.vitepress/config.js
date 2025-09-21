@@ -9,7 +9,44 @@ export default defineConfig({
 			compilerOptions: { isCustomElement: tag => tag === 'model-viewer' }
 		}
 	},
+	appearance: 'dark',
 
+	/**
+	 * additional config options
+	 */
+	themeConfig: {
+		logo: '/logo.png',
+		outline: [2, 3],
+		// https://vitepress.dev/reference/default-theme-config
+		nav: [
+			{ text: 'Home', link: '/' },
+			{ text: 'About Me', link: '/about-me' },
+			{ text: 'CW', link: '/classworks' },
+			{ text: 'HW', link: '/homeworks' }
+		],
+		// sidebar: [
+		// 	{
+		// 		text: 'Examples',
+		// 		items: [
+		// 			{ text: 'Markdown Examples', link: '/markdown-examples' },
+		// 			{ text: 'Runtime API Examples', link: '/api-examples' }
+		// 		]
+		// 	}
+		// ],
+		socialLinks: [
+			{ icon: 'github', link: 'https://github.com/RifatMahmudno-1/ese-1200' },
+			{ icon: 'gmail', link: 'mailto:rifatmahmudpc@gmail.com' }
+		],
+
+		footer: {
+			message: 'Created with ❤️ by Rifat Mahmud with Vitepress',
+			copyright: `Copyright © ${new Date().getFullYear()} Rifat Mahmud`
+		}
+	},
+
+	/**
+	 * Meta and links to be added to the page HTML `<head>`
+	 */
 	head: [
 		['link', { rel: 'stylesheet', href: '/global.css' }],
 		['link', { rel: 'icon', href: '/logo.png' }],
@@ -30,36 +67,5 @@ export default defineConfig({
 	lang: 'en-US',
 	title: 'ESE 1200',
 	description:
-		'A website to showcase some of my projects from ESE 1200 course on Solidworks',
-	themeConfig: {
-		logo: '/logo.png',
-		outline: [2, 3],
-		// https://vitepress.dev/reference/default-theme-config
-		nav: [
-			{ text: 'Home', link: '/' },
-			{ text: 'About Me', link: '/about-me' },
-			{ text: 'CW', link: '/classworks' },
-			{ text: 'HW', link: '/homeworks' }
-		],
-
-		// sidebar: [
-		// 	{
-		// 		text: 'Examples',
-		// 		items: [
-		// 			{ text: 'Markdown Examples', link: '/markdown-examples' },
-		// 			{ text: 'Runtime API Examples', link: '/api-examples' }
-		// 		]
-		// 	}
-		// ],
-
-		socialLinks: [
-			{ icon: 'github', link: 'https://github.com/RifatMahmudno-1/ese-1200' },
-			{ icon: 'gmail', link: 'mailto:rifatmahmudpc@gmail.com' }
-		],
-
-		footer: {
-			message: 'Created with ❤️ by Rifat Mahmud with Vitepress',
-			copyright: `Copyright © ${new Date().getFullYear()} Rifat Mahmud`
-		}
-	}
+		'A website to showcase some of my projects from ESE 1200 course on Solidworks'
 })
