@@ -1,6 +1,6 @@
 import classworks from './classworks.js'
 import homeworks from './homeworks.js'
-import pageGenerator from './pageGenerator.js'
+import pageGenerator from './generator/index.js'
 
 pageGenerator(
 	'Classworks',
