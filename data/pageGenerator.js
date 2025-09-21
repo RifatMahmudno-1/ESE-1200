@@ -84,8 +84,25 @@ ${
 	 * each content file generation
 	 */
 
-	for (let cont of content) {
-		let html = `<script setup>
+	for (let c = 0; c < content.length; c++) {
+		const cont = content[c]
+		let html = `---
+${
+	c > 0
+		? `prev:
+  text: '${content[c - 1].title_text}'
+  link: '${link_dir}/${content[c - 1].title_anchor}'`
+		: ''
+}
+${
+	c + 1 < content.length
+		? `next:
+  text: '${content[c + 1].title_text}'
+  link: '${link_dir}/${content[c + 1].title_anchor}'`
+		: ''
+}
+---
+<script setup>
 	import { ref } from 'vue'
 	import { useData } from 'vitepress'
 	const { isDark } = useData()
