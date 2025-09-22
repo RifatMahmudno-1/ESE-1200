@@ -73,5 +73,33 @@ export default [
 				]
 			}
 		]
+	},
+	{
+		title_anchor: '2025-09-22',
+		title_text: '22th September, 2025',
+		items: [
+			{
+				title: 'Project-01',
+				views: [
+					{
+						title: '3D model',
+						link: '/objects/cw-03-01.glb',
+						raw_link: '/raw_objects/cw-03-01.SLDPRT',
+						type: 'model'
+					}
+				]
+			},
+			{
+				title: 'Project-02',
+				views: [
+					{
+						title: '3D model',
+						link: '/objects/cw-03-02.glb',
+						raw_link: '/raw_objects/cw-03-02.SLDPRT',
+						type: 'model'
+					}
+				]
+			}
+		]
 	}
 ]
