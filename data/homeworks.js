@@ -99,6 +99,17 @@ export default [
 						type: 'model'
 					}
 				]
+			},
+			{
+				title: 'Assignment',
+				views: [
+					{
+						title: '3D model',
+						link: '/objects/hw-03-assignment.glb',
+						raw_link: '/raw_objects/hw-03-assignment.SLDPRT',
+						type: 'model'
+					}
+				]
 			}
 		]
 	}
