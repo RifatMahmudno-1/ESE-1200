@@ -101,5 +101,44 @@ export default [
 				]
 			}
 		]
+	},
+	{
+		title_anchor: '2025-10-06',
+		title_text: '06th October, 2025',
+		items: [
+			{
+				title: 'Project-00',
+				views: [
+					{
+						title: '3D model',
+						link: '/objects/cw-04-00.glb',
+						raw_link: '/raw_objects/cw-04-00.SLDPRT',
+						type: 'model'
+					}
+				]
+			},
+			{
+				title: 'Project-01',
+				views: [
+					{
+						title: '3D model',
+						link: '/objects/cw-04-01.glb',
+						raw_link: '/raw_objects/cw-04-01.SLDPRT',
+						type: 'model'
+					}
+				]
+			},
+			{
+				title: 'Project-02',
+				views: [
+					{
+						title: '3D model',
+						link: '/objects/cw-04-02.glb',
+						raw_link: '/raw_objects/cw-04-02.SLDPRT',
+						type: 'model'
+					}
+				]
+			}
+		]
 	}
 ]
