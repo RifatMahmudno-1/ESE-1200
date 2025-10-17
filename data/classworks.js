@@ -140,5 +140,33 @@ export default [
 				]
 			}
 		]
+	},
+	{
+		title_anchor: '2025-10-13',
+		title_text: '13th October, 2025',
+		items: [
+			{
+				title: 'Project-01',
+				views: [
+					{
+						title: '3D model',
+						link: '/objects/cw-05-01.glb',
+						raw_link: '/raw_objects/cw-05-01.SLDPRT',
+						type: 'model'
+					}
+				]
+			},
+			{
+				title: 'Project-02',
+				views: [
+					{
+						title: '3D model',
+						link: '/objects/cw-05-02.glb',
+						raw_link: '/raw_objects/cw-05-02.SLDPRT',
+						type: 'model'
+					}
+				]
+			}
+		]
 	}
 ]
