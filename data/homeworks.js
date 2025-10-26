@@ -168,5 +168,22 @@ export default [
 				]
 			}
 		]
+	},
+	{
+		title_anchor: '2025-10-19',
+		title_text: '19th October, 2025',
+		items: [
+			{
+				title: 'Project-01',
+				views: [
+					{
+						title: '3D assembled model',
+						link: '/objects/hw-06-01.glb',
+						raw_link: '/raw_objects/hw-06-01.zip',
+						type: 'model'
+					}
+				]
+			}
+		]
 	}
 ]
