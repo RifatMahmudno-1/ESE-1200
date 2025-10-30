@@ -196,5 +196,33 @@ export default [
 				]
 			}
 		]
+	},
+	{
+		title_anchor: '2025-10-26',
+		title_text: '26th October, 2025',
+		items: [
+			{
+				title: 'Project-01',
+				views: [
+					{
+						title: '3D assembled model',
+						link: '/objects/cw-07-01.glb',
+						raw_link: '/raw_objects/cw-07-01.zip',
+						type: 'model'
+					}
+				]
+			},
+			{
+				title: 'Project-02',
+				views: [
+					{
+						title: '3D assembled model',
+						link: '/objects/cw-07-02.glb',
+						raw_link: '/raw_objects/cw-07-02.SLDPRT',
+						type: 'model'
+					}
+				]
+			}
+		]
 	}
 ]
