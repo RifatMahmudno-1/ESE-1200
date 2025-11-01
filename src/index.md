@@ -28,3 +28,7 @@ features:
   - title: About Website
     details: This website is made using vitepress.
 ---
+
+::: danger ⚠️ Disclaimer
+Fellow classmates and juniors are highly discouraged from downloading my work and submitting them as their own.<br/>Feel free to download for studying and learning purpose. But DO NOT COPY AND SUBMIT TO YOUR PROFESSOR.<br/>Don't get into trouble and don't drag me with you 🙏.
+:::
