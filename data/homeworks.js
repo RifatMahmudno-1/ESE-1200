@@ -202,5 +202,22 @@ export default [
 				]
 			}
 		]
+	},
+	{
+		title_anchor: '2025-11-09',
+		title_text: '09th November, 2025',
+		items: [
+			{
+				title: 'Fabrication-Lab-Assignment',
+				views: [
+					{
+						title: '3D model',
+						link: '/objects/fab-lab-assignment.glb',
+						raw_link: '/raw_objects/fab-lab-assignment.SLDPRT',
+						type: 'model'
+					}
+				]
+			}
+		]
 	}
 ]
