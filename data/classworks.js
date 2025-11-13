@@ -170,8 +170,8 @@ export default [
 		]
 	},
 	{
-		title_anchor: '2025-10-19',
-		title_text: '19th October, 2025',
+		title_anchor: '2025-10-20',
+		title_text: '20th October, 2025',
 		items: [
 			{
 				title: 'Project-01',
@@ -198,8 +198,8 @@ export default [
 		]
 	},
 	{
-		title_anchor: '2025-10-26',
-		title_text: '26th October, 2025',
+		title_anchor: '2025-10-27',
+		title_text: '27th October, 2025',
 		items: [
 			{
 				title: 'Project-01',
