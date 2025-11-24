@@ -224,5 +224,33 @@ export default [
 				]
 			}
 		]
+	},
+	{
+		title_anchor: '2025-11-24',
+		title_text: '24th November, 2025',
+		items: [
+			{
+				title: 'Quiz-Task-01',
+				views: [
+					{
+						title: '3D assembled model',
+						link: '/objects/lab-quiz-1.glb',
+						raw_link: '/raw_objects/lab-quiz-1.zip',
+						type: 'model'
+					}
+				]
+			},
+			{
+				title: 'Quiz-Task-02',
+				views: [
+					{
+						title: '3D model',
+						link: '/objects/lab-quiz-2.glb',
+						raw_link: '/raw_objects/lab-quiz-2.SLDPRT',
+						type: 'model'
+					}
+				]
+			}
+		]
 	}
 ]
