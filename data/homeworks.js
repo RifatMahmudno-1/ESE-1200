@@ -230,5 +230,55 @@ export default [
 				]
 			}
 		]
+	},
+	{
+		title_anchor: '2025-11-23',
+		title_text: '23th November, 2025',
+		items: [
+			{
+				title: 'Lab-Quiz-2K22-1',
+				views: [
+					{
+						title: '3D model',
+						link: '/objects/lab-quiz-2k22-1.glb',
+						raw_link: '/raw_objects/lab-quiz-2k22-1.SLDPRT',
+						type: 'model'
+					}
+				]
+			},
+			{
+				title: 'Lab-Quiz-2K22-2',
+				views: [
+					{
+						title: '3D model',
+						link: '/objects/lab-quiz-2k22-2.glb',
+						raw_link: '/raw_objects/lab-quiz-2k22-2.SLDPRT',
+						type: 'model'
+					}
+				]
+			},
+			{
+				title: 'Lab-Quiz-2K22-3',
+				views: [
+					{
+						title: '3D model',
+						link: '/objects/lab-quiz-2k22-3.glb',
+						raw_link: '/raw_objects/lab-quiz-2k22-3.SLDPRT',
+						type: 'model'
+					}
+				]
+			},
+			{
+				title: 'Lab-Quiz-2K22-4',
+				views: [
+					{
+						title: '3D assembled model',
+						link: '/objects/lab-quiz-2k22-4.glb',
+						raw_link: '/raw_objects/lab-quiz-2k22-4.zip',
+						type: 'model'
+					}
+				]
+			}
+		]
 	}
 ]
