@@ -76,7 +76,7 @@ export default [
 	},
 	{
 		title_anchor: '2025-09-22',
-		title_text: '22th September, 2025',
+		title_text: '22nd September, 2025',
 		items: [
 			{
 				title: 'Project-01',
@@ -216,9 +216,54 @@ export default [
 				title: 'Project-02',
 				views: [
 					{
-						title: '3D assembled model',
+						title: '3D model',
 						link: '/objects/cw-07-02.glb',
 						raw_link: '/raw_objects/cw-07-02.SLDPRT',
+						type: 'model'
+					}
+				]
+			}
+		]
+	},
+	{
+		title_anchor: '2025-11-03',
+		title_text: '03rd November, 2025',
+		items: [
+			{
+				title: 'Project-01',
+				views: [
+					{
+						title: '3D model',
+						link: '/objects/cw-08-01.glb',
+						raw_link: '/raw_objects/cw-08-01.SLDPRT',
+						type: 'model'
+					}
+				]
+			},
+			{
+				title: 'Project-02',
+				views: [
+					{
+						title: '3D model',
+						link: '/objects/cw-08-02.glb',
+						raw_link: '/raw_objects/cw-08-02.SLDPRT',
+						type: 'model'
+					}
+				]
+			}
+		]
+	},
+	{
+		title_anchor: '2025-11-17',
+		title_text: '17th November, 2025',
+		items: [
+			{
+				title: 'Project-01',
+				views: [
+					{
+						title: '3D molding model',
+						link: '/objects/cw-09.glb',
+						raw_link: '/raw_objects/cw-09.zip',
 						type: 'model'
 					}
 				]

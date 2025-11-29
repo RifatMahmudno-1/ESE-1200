@@ -76,7 +76,7 @@ export default [
 	},
 	{
 		title_anchor: '2025-09-22',
-		title_text: '22th September, 2025',
+		title_text: '22nd September, 2025',
 		items: [
 			{
 				title: 'Project-01',
@@ -194,7 +194,7 @@ export default [
 				title: 'Project-01',
 				views: [
 					{
-						title: '3D assembled model',
+						title: '3D model',
 						link: '/objects/hw-07.glb',
 						raw_link: '/raw_objects/hw-07.SLDPRT',
 						type: 'model'
@@ -205,7 +205,7 @@ export default [
 	},
 	{
 		title_anchor: '2025-11-03',
-		title_text: '03th November, 2025',
+		title_text: '03rd November, 2025',
 		items: [
 			{
 				title: 'Project-01',
@@ -217,7 +217,13 @@ export default [
 						type: 'model'
 					}
 				]
-			},
+			}
+		]
+	},
+	{
+		title_anchor: '2025-11-10',
+		title_text: '10th November, 2025',
+		items: [
 			{
 				title: 'Fabrication-Lab-Assignment',
 				views: [
@@ -232,8 +238,25 @@ export default [
 		]
 	},
 	{
+		title_anchor: '2025-11-17',
+		title_text: '17th November, 2025',
+		items: [
+			{
+				title: 'Project-01',
+				views: [
+					{
+						title: '3D molding model',
+						link: '/objects/hw-09.glb',
+						raw_link: '/raw_objects/hw-09.zip',
+						type: 'model'
+					}
+				]
+			}
+		]
+	},
+	{
 		title_anchor: '2025-11-23',
-		title_text: '23th November, 2025',
+		title_text: '23rd November, 2025',
 		items: [
 			{
 				title: 'Lab-Quiz-2K22-1',
